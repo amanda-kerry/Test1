@@ -1,0 +1,31 @@
+{
+  "_id": "page.multi",
+  "_type": "page.form",
+  "components": [
+    {
+      "_id": "page.multi--text.auto_name__1",
+      "_type": "text",
+      "label": "Child",
+      "name": "auto_name__1",
+      "repeatableHeading": "Kidz"
+    },
+    {
+      "_id": "page.multi--date.auto_name__2",
+      "_type": "date",
+      "label": "Date of birth",
+      "name": "auto_name__2"
+    },
+    {
+      "_id": "page.multi--radios.auto_name__4",
+      "_isa": "radios.yes-no",
+      "_type": "radios",
+      "legend": "Do you need to go home?",
+      "name": "home",
+      "validation": {
+        "required": false
+      }
+    }
+  ],
+  "heading": "My milti page",
+  "url": "multi"
+}
